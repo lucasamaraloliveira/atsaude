@@ -36,6 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     --color-links: #575759;
     --color-login: #FFFFFF;
     --color-shadow: #FEFEFE;
+    --color-border: #CCCCCC;
 
     --color-error: #EF4444;
 

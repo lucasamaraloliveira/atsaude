@@ -18,7 +18,7 @@ function Login() {
   };
 
   return (
-    <div className="container">
+    <div className="login-container">
       <form onSubmit={handleSubmit}>
         <img src={LogoBlue} alt="" />
         <div>

@@ -1,0 +1,109 @@
+.wallpaper-signup-container {
+  background-image: url(../../assets/wallpaper_signup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-info-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: 20rem;
+  ;
+}
+.signup-info-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 2.5rem;
+  color: var(--color-main-button)
+}
+
+.signup-info-container p {
+  font-size: 1.2rem;
+  color: var(--color-links);
+  margin-left: 4.5rem;
+}
+
+.signup-container {
+    height: 600px;
+    margin: 0 auto;
+    background-color: var(--color-login);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px  2px 6px #ccc;
+  }
+
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .campo img {
+    width: 12.5rem;
+    margin-left: 6.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .campo label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 1rem;
+    color: var(--color-links);
+  }
+  
+  .campo input {
+    width: 400px;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var( --color-border);
+  }
+  .campo input:focus {
+    border-color: none;
+  }
+
+  .signup-button {
+    width: 400px;
+    max-width: 90%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-main-button);
+    color: var(--color-login);
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  .signup-button:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .teste {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h2{
+    color: var(--color-links);
+    font-weight: bold;
+  }
+  
