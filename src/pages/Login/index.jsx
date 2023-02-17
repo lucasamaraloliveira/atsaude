@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import LogoBlue from '../../assets/logo_blue.svg'
 
@@ -57,6 +58,10 @@ function Login() {
         <div>
           <button type="submit">Login</button>
         </div>
+        <p className="redirect">
+  Ainda não possui um cadastro?{" "}
+  <Link to="/signup">Clique aqui</Link> e cadastre-se.
+</p>
       </form>
       <footer>
         desenvolvido por Alrion Tech

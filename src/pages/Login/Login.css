@@ -100,6 +100,21 @@
   margin-left: 10px;
 }
 
+.redirect {
+  text-align: center;
+  color: var(--color-links);
+  margin-top: 3rem;
+  font-size: 16px;
+}
+.redirect a {
+  font-weight: bold;
+  color: var(--color-main-button);
+}
+.redirect a:hover {
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
 footer {
   position: fixed;
   bottom: 0;
