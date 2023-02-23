@@ -41,7 +41,7 @@ function Signup() {
         <p>Acesse ferramentas fundamentais para gerenciar seu negócio e proporcione a melhor experiência para seus pacientes.</p>
       </div>
       <footer>
-        desenvolvido por Alrion Tech
+        Desenvolvido por Alrion Tech
       </footer>
     </div>
   );

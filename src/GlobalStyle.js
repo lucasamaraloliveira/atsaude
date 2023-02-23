@@ -11,6 +11,8 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
+  
+
   html, body {
     background: var(--color-8);
     height: 100vh;

@@ -64,7 +64,7 @@ function Login() {
 </p>
       </form>
       <footer>
-        desenvolvido por Alrion Tech
+        Desenvolvido por Alrion Tech
       </footer>
     </div>
   );

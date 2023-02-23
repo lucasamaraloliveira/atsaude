@@ -46,8 +46,10 @@
   padding: 1rem;
   background-color: var(--color-login-input) ;
   border-radius: 5px;
-  
 }
+
+
+
 
 .login-container form > div input[type="checkbox"] {
   width: auto;
@@ -121,5 +123,40 @@ footer {
   font-size: 16px;
   margin-bottom: 5px;
   color: var(--color-links);
+}
+
+@media (max-width: 834px) {
+
+  .login-container form {
+    height: 100%;
+  }
+
+  footer {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .login-container form p {
+   font-size: 15px;
+   margin-top: 1rem;
+}
+footer {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+}
+
+@media (max-width: 360px) {
+  .login-container form p {
+   font-size: 15px;
+   margin-top: 1rem;
+}
+footer {
+  font-size: 12px;
+  margin-bottom: 0;
+}
 
 }
